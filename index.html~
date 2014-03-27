@@ -3,6 +3,7 @@
 <head>
 	<title>Agricultores de Canarias</title>
 	<link rel="stylesheet" href="css/bootstrap.css"/>
+   <link rel="stylesheet" href="css/bootstrap-theme.css"/>
 	<link rel="stylesheet" href="css/estilos.css"/>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -33,6 +34,32 @@
 							<li><a alt="Enlace a login" href="#">login</a></li>
 							<li><a alt="Enlace a registrarse" href="#">registrarse</a></li>
 						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- Aqui acaba el menu superior -->
+		<div class="row">
+			<div class="cabecera">
+				<div class="col-md-3">
+					<a alt="Enlace a inicio" href="/">
+						<div class="logotipo">
+							<h1>Agricultores de Canarias</h1>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<div class="banner-superior">
+						Banner
+					</div>
+				</div>				
+				<div class="col-md-3">
+					<div class="buscador">
+						<form role="form" class="form-inline">
+							<div class="form-group">
+								<input class="form-control" placeholder="Buscar.." type="text"/>
+								<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
