@@ -1,6 +1,14 @@
 body {
-	background-color:#F5FAF6;
+
 }
+.pie {
+	height:30px;
+	color:white;
+	background-color: #3c3c3c;	
+	text-align:center;
+	padding-top:5px;
+}
+
 .menu-superior {
 	height:30px;
 	color:white;
@@ -71,13 +79,15 @@ body {
 .banner-superior {
 	height:90px;
 	margin-top:3px;
-	border:2px solid black;
 }
-
+.banner-superior img{ 
+	width:615px;
+	height:87px;
+}
 /* Tipo noticia */
 
 .tipo-noticia {
-	height:200px;
+	height:auto;
 	border-bottom:2px solid grey;
 	margin-bottom:20px;
 }
@@ -104,6 +114,7 @@ body {
 .tipo-noticia-contenido {
 	height:auto;
 	overflow:hidden;
+	padding-bottom:20px;
 }
 .tipo-noticia-izquierda {
 	float:left;
