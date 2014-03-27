@@ -28,7 +28,8 @@
 	padding-bottom:3px;
 }
 .menu-superior ul li a{
-	color:white;	
+	color:white;
+	
 }
 .active a{
 	border-bottom:3px solid white;
