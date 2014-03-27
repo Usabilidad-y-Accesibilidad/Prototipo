@@ -1,3 +1,6 @@
+body {
+	background-color:#F5FAF6;
+}
 .menu-superior {
 	height:30px;
 	color:white;
@@ -47,8 +50,6 @@
 /* Cabecera */
 .cabecera {
 	height:100px;
-	
-	border:1px solid black;
 }
 .logotipo {
 	text-align:center;
@@ -56,6 +57,7 @@
 }
 .logotipo a {
 	text-decoration:none;
+	color:green;
 }
 .logotipo h1 {
 	margin-top:0px;
@@ -70,5 +72,67 @@
 	height:90px;
 	margin-top:3px;
 	border:2px solid black;
+}
+
+/* Tipo noticia */
+
+.tipo-noticia {
+	height:200px;
+	border-bottom:2px solid grey;
+	margin-bottom:20px;
+}
+
+.tipo-noticia-superior {
+	height:auto;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.noticia-titular { 
+	float:left;
+}	
+.noticia-titular h3 {
+	margin:0;
+	padding:0;
+}
+.noticia-puntuacion {
+	float:left;
+}
+.noticia-fecha {
+	float:right;
+	color:grey;
+}
+.tipo-noticia-contenido {
+	height:auto;
+	overflow:hidden;
+}
+.tipo-noticia-izquierda {
+	float:left;
+	width:200px;
+	margin-right:20px;
+}
+.tipo-noticia-izquierda img {
+	width:200px;
+	max-height:200px;
+}
+.tipo-noticia-izquierda img {
+	padding-bottom:10px;
+}
+
+
+
+/* Contenido principal */
+
+.menu-lateral {
+	margin-top:30px;
+	margin-left:20px;
+}
+.menu-lateral a{
+	color:black;
+	text-decoration:none;
+}
+.list-group li.active a { color:white; }
+
+.leer-mas {
+	color:blue;
 }
 
